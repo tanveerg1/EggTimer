@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
 
                 @Override
                 public void onFinish() {
-                    //timerTextView.setText("0:00");
+                    timerTextView.setText("0:00");
                     resetTimer();
                     MediaPlayer mPlayer = MediaPlayer.create(getApplicationContext(), R.raw.airhorn);
                     mPlayer.start();
